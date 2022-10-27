@@ -8,4 +8,4 @@ import * as ShoppingCart from './shoppingCart.js';
 console.log('Importing module');
 ShoppingCart.addToCart('mouse', 4);
 console.log(ShoppingCart.totalPrice);
-import add from './shoppingCart.js';
+import add, { cart } from './shoppingCart.js';
